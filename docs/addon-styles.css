@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    border-top: 5px solid #424242;
+    border-bottom: 1px solid #e8e8e8;
+    min-height: 55.95px;
+    line-height: 54px;
+
+}
+
+footer {
+    background-color: #fff;
+    border-top: 1px solid #dddddd;
+    border-bottom: 1px solid #e8e8e8;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+body {
+    font-size: 14px;
+}
+
+main {
+    margin-bottom: 108px;
+}
+
+main .wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+@media screen and (min-height: 504px) and (min-width: 830px) {
+    main .wrapper {
+        display: flex;
+        height: calc(100vh - 175px);
+        align-items: center;
+    }
+}
+main .card {
+    flex: 1 1 auto;
+    margin:1em
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.footer-col-wrapper, .social-links {
+    font-size: 0.9375rem;
+    color: #828282;
+}
+
+@media screen and (min-width: 1200px) {
+    #menu-links {display: block !important;}
+}
+
+@media screen and (max-width: 1199px) {
+    .post-content h3 { font-size: 1.625rem; }
+}
+
+#menu-links {
+    display: none;
+}
+
+.site-nav {
+    line-height: 10px;
+}
+
+.site-nav label[for="nav-trigger"] {
+    display: inline-block;
+    float: none;
+}
+
+.card img {
+    max-width: none;
+}
+
+.project-title {
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.project-title {
+    position: relative;
+}
+
+.project-title .tooltiptext {
+visibility: hidden;
+width: 120px;
+background-color: black;
+color: #fff;
+text-align: center;
+padding: 5px 0;
+border-radius: 6px;
+
+/* Position the tooltip text - see examples below! */
+position: absolute;
+z-index: 1;
+}
+
+.project-title:hover .tooltiptext {
+    visibility: visible;
+}
