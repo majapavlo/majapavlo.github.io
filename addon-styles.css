@@ -49,12 +49,21 @@ main .card {
     margin-bottom: 1em
 }
 
-main .card:nth-child(odd) {
-    margin-right: 10px;
+@media screen and (max-width: 940px) {
+    .wrapper {
+        padding-left: 15px;
+        padding-right: 15px;
+        max-width: 880px;
+    }
 }
+@media screen and (min-width: 941px) {
+    main .card:nth-child(odd) {
+        margin-right: 10px;
+    }
 
-main .card:nth-child(even) {
-    margin-left: 10px;
+    main .card:nth-child(even) {
+        margin-left: 10px;
+    }
 }
 
 p {
@@ -70,13 +79,26 @@ p {
     color: #828282;
 }
 
-@media screen and (max-width: 1199px) {
+/* @media screen and (max-width: 1199px) {
     .post-content h3 { font-size: 1.625rem; }
-}
+} */
 
 .site-nav label[for="nav-trigger"] {
     display: inline-block;
     float: none;
+}
+
+.card img {
+    max-width: none;
+    width: 430px;
+    height: 300px;
+}
+
+@media screen and (max-width: 500px) {
+    .card img {
+        width: 200px;
+        height: calc(200px * 300/430);
+    }
 }
 
 @media screen and (min-width: 1000px) {
@@ -98,11 +120,6 @@ p {
 }
 
 
-.card img {
-    max-width: none;
-    width: 430px;
-    height: 300px;
-}
 
 .project-title {
     margin-block-start: 1em;
