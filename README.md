@@ -1,3 +1,3 @@
 ### readme
 
-## under construction  -- nothing to see here yet
+Work in Progress. Not much to see in this Repository yet.
