@@ -1,0 +1,56 @@
+@use 'sass:map';
+@use './variables.module.scss' as vars;
+
+.Home {
+  padding: 40px 0;
+}
+
+.Blurb {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  justify-content: space-between;
+  column-gap: 40px;
+  row-gap: 20px;
+}
+
+.BlurbText {
+  flex: 1 1 0;
+}
+
+.Avatar {
+  border-radius: 50%;
+  width: 230px;
+  height: 230px;
+  box-shadow: var(--shadow);
+
+  @media (max-width: (map.get(vars.$breakpoints, sm) - 0.05px)) {
+    width: 175px;
+    height: 175px;
+  }
+}
+
+
+.Links {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+
+  a {
+    border: 1.5px solid var(--border-light);
+    border-radius: 50%;
+    font-size: 0;
+    padding: 10px;
+
+    &:hover {
+      border-color: var(--icon-hover-color);
+    }
+
+    svg {
+      fill: var(--icons);
+      width: 30px;
+      height: 30px;
+    }
+  }
+}

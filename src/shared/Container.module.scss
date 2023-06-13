@@ -1,0 +1,29 @@
+@use 'sass:map';
+@use '../variables.module.scss' as vars;
+
+.Container {
+  @media (max-width: (map.get(vars.$breakpoints, sm) - 0.05px)) {
+    margin: 0 16px;
+    width: auto;
+  }
+
+  @media (min-width: map.get(vars.$breakpoints, sm)) and (max-width: (map.get(vars.$breakpoints, md) - 0.05px)) {
+    margin: 0 32px;
+    width: auto;
+  }
+
+  @media (min-width: map.get(vars.$breakpoints, md)) and (max-width: (map.get(vars.$breakpoints, lg) - 0.05px)) {
+    margin: 0 auto;
+    width: 895px;
+  }
+
+  @media (min-width: map.get(vars.$breakpoints, lg)) and (max-width: (map.get(vars.$breakpoints, xl) - 0.05px)) {
+    margin: 0 192px;
+    width: auto;
+  }
+
+  @media (min-width: map.get(vars.$breakpoints, xl)) {
+    margin: 0 auto;
+    width: 1000px;
+  }
+}

@@ -1,0 +1,43 @@
+.Projects {
+  padding: 40px 0;
+}
+
+.Section {
+  // max-width: 1000px;
+
+  h3 {
+    margin-bottom: 0;
+    font-weight: 300;
+  }
+}
+
+.Cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  // max-width: 1000px;
+}
+
+.Card {
+  width: calc(50% - 20px/2);
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+}
+
+.CardImage {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.CardTitle {
+  font-size: 24px;
+  font-weight: 600;
+  padding: 10px;
+}
+
+.CardDescription {
+  padding: 10px;
+}
