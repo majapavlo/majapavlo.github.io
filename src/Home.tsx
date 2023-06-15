@@ -14,8 +14,8 @@ const Home: Component = () => {
           <div class={styles.Blurb}>
             <div class={styles.BlurbText}>
 
-              {/* I am an incoming PhD student at Queen Mary University London interested in subjective Machine Learning. */}
-              Before returning to university I was a Data Scientist in London, working in a marketing startup and then a utilities company.
+              I'm an incoming DeepMind PhD student at Queen Mary University London interested in Machine Learning under annotator disagreement.
+              Before returning to University I worked a Data Scientist in a marketing startup and then a utilities company in London.
 
               <h4>Background</h4>
               I have a Bachelor’s degree in <em><strong>Business, Economics and Social Sciences</strong></em> from the <a href="https://www.wu.ac.at/" target="_blank"> Vienna University of Economics and Business</a> and
