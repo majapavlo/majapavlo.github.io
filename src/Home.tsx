@@ -52,9 +52,9 @@ const Home: Component = () => {
             <a href="https://twitter.com/maja_pavlo" target="_blank">
               <svg><use href={icons + '#twitter'}></use></svg>
             </a>
-            <a href="https://scholar.google.com/citations?user=NEa-wIIAAAAJ&hl=en" target="_blank">
+            {/* <a href="https://scholar.google.com/citations?user=NEa-wIIAAAAJ&hl=en" target="_blank">
               <svg><use href={icons + '#scholar'}></use></svg>
-            </a>
+            </a> */}
             <a href="https://medium.com/@majapavlo" target="_blank">
               <svg><use href={icons + '#medium'}></use></svg>
             </a>
