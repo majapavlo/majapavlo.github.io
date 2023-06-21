@@ -22,3 +22,12 @@ The build is minified and the filenames include the hashes.<br>
 ## Deployment
 
 The `dist` folder can be deployed to any static host provider (e.g. github pages)
+
+
+
+
+------
+
+#### Repo Settings
+
+Go to: Settings > Pages > Build and deployment then set the Source to: Github Actions

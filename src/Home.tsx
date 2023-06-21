@@ -14,7 +14,7 @@ const Home: Component = () => {
           <div class={styles.Blurb}>
             <div class={styles.BlurbText}>
 
-              I'm an incoming DeepMind PhD student at Queen Mary University London interested in Machine Learning under annotator disagreement.
+              I'm an incoming PhD student with a DeepMind studentship at Queen Mary University London interested in Machine Learning under annotator disagreement.
               Before returning to University I worked a Data Scientist in a marketing startup and then a utilities company in London.
 
               <h4>Background</h4>
