@@ -35,10 +35,16 @@ const Home: Component = () => {
               </ul>
 
             </div>
+
             <div class="avatar">
               <img src={profilePic} class={styles.Avatar}></img>
             </div>
           </div>
+          {/* <div class="about2">
+            <h4>Interests</h4>
+            Avid sports enthusiast, currently enjoying yoga, rock climbing, and bouldering. Avid sports enthusiast, currently enjoying yoga, rock climbing, and bouldering.
+            Avid sports enthusiast, currently enjoying yoga, rock climbing, and bouldering. Avid sports enthusiast, currently enjoying yoga, rock climbing, and bouldering.
+          </div> */}
         </div >
 
         <div class={styles.Container}>

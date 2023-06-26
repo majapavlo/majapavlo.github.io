@@ -15,6 +15,10 @@
 
 .BlurbText {
   flex: 1 1 0;
+
+  @media (max-width: (map.get(vars.$breakpoints, sm) - 0.05px)) {
+    min-width: 100%;
+  }
 }
 
 .Avatar {
@@ -31,7 +35,7 @@
 
 
 .Links {
-  margin-top: 10px;
+  margin-top: 60px;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
