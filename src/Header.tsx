@@ -43,9 +43,9 @@ const Header: Component = () => {
               style={{ display: menuOpen() ? 'flex' : 'none' }}
               onClick={() => setMenuOpen(false)}
             >
-              <A href="/">about</A>
-              <A href="/news">news</A>
-              <a href="https://medium.com/@majapavlo" target="_blank">blog</a>
+              {/* <A href="/">about</A> */}
+              {/* <A href="/news">news</A> */}
+              {/* <a href="https://medium.com/@majapavlo" target="_blank">blog</a> */}
               {/* <A href="/publications">publications</A> */}
               {/* <A href="/projects">projects</A> */}
               <button type="button" class={styles.ThemeButton} onClick={toggleTheme}>
