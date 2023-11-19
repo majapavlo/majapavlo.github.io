@@ -13,22 +13,23 @@ const Home: Component = () => {
           <h2>About</h2>
           <div class={styles.Blurb}>
             <div class={styles.BlurbText}>
+              I am a PhD student at Queen Mary University of London, working under the guidance
+              of <a href="https://sites.google.com/view/massimo-poesio" target="_blank">Prof. Massimo Poesio</a>.
+              <br></br>
+              My research centers around <strong>Natural Language Processing</strong> tasks that involve human disagreement {/* that involve annotator disagreements stemming from e.g. subjective views or interpretative ambiguities  */}
+              and is supported by the <em><a href="https://deepmind.google/">Google DeepMind studentship</a></em>.
 
-              I'm an incoming PhD student with a DeepMind studentship at Queen Mary University London interested in Machine Learning under annotator disagreement.
-              Before returning to University I worked a Data Scientist in a marketing startup and then a utilities company in London.
+              <h3 class={styles.BackgroundHeader} >Background</h3>
+              I have a Bachelor’s degree in <em><strong>Business, Economics and
+                Social Sciences</strong></em> from the <a href="https://www.wu.ac.at/" target="_blank">Vienna University of Economics and Business</a>,
+              a Master’s degree in <em><strong>Business Analytics</strong></em> from <a href="https://www.imperial.ac.uk/" target="_blank"> Imperial
+                College London</a> and another Master’s degree in <em><strong>Artificial Intelligence</strong></em> from <a href="http://eecs.qmul.ac.uk/"
+                  target="_blank">Queen Mary University London</a>.
 
-              <h4>Background</h4>
-              I have a Bachelor’s degree in <em><strong>Business, Economics and Social Sciences</strong></em> from the <a href="https://www.wu.ac.at/" target="_blank"> Vienna University of Economics and Business</a> and
-              a Master’s degree in <em><strong>Business Analytics</strong></em> from <a href="https://www.imperial.ac.uk/" target="_blank"> Imperial College London</a>.
-              Currently, I am pursuing a Master’s degree in <em><strong>Artificial Intelligence</strong></em> at <a href="http://eecs.qmul.ac.uk/" target="_blank"> Queen Mary University London</a> where I am working with <a href="https://sites.google.com/view/massimo-poesio" target="_blank">Massimo Poesio</a> on evaluating machine learning tasks with human disagreement.
-              {/* I have completed a Bachelor’s degree in <em><strong>Business, Economics and Social Sciences</strong></em> at the <a href="https://www.wu.ac.at/" target="_blank"> Vienna University of Economics and Business </a> and
-              a Master’s degree in <em><strong>Business Analytics</strong></em> at <a href="https://www.imperial.ac.uk/" target="_blank"> Imperial College London</a>.
-              Currently, I am pursuing a Master’s degree in <em><strong>Artificial Intelligence</strong></em> at <a href="http://eecs.qmul.ac.uk/" target="_blank"> Queen Mary
-                University London</a> where I am working with <a href="https://sites.google.com/view/massimo-poesio" target="_blank">Massimo Poesio</a> on evaluating machine learning tasks with human disagreement. */}
-
-              <h4>Research interests</h4>
+              <h4 class={styles.ResearchInterestsHeader}>Research interests:</h4>
               <ul>
-                <li> Annotator Disagreement</li>
+                <li> Subjective/ambiguous NLP</li>
+                {/* <li> Annotator Disagreement</li> */}
                 <li> Uncertainty Quantification </li>
                 <li> Bias and Fairness </li>
                 <li> Data Centric Machine Learning </li>
@@ -70,7 +71,7 @@ const Home: Component = () => {
           </div>
         </div>
 
-      </Container>
+      </Container >
     </div >
   );
 };
