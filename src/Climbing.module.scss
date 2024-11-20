@@ -1,0 +1,51 @@
+.Climbing {
+  padding: 40px 0;
+}
+
+
+
+.Climbing {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+
+.Container {
+  max-width: 1200px;
+  /* Adjust container size */
+  width: 100%;
+}
+
+.ClimbGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  /* Two columns: left and right */
+  grid-template-rows: masonry;
+  /* Two rows: adjust height automatically */
+  gap: 10px;
+  /* Space between grid items */
+  width: 100%;
+}
+
+.ClimbImg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.SpanImg {
+  //grid-column: 2 / 3;
+  /* Spans the second column */
+  //grid-row: 1 / 3;
+  /* Spans two rows */
+}
+
+.Image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  /* Optional: Add rounded corners */
+}
