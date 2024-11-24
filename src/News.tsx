@@ -2,7 +2,7 @@ import type { Component } from 'solid-js';
 
 import styles from './News.module.scss';
 import Container from './shared/Container';
-import newsPic from "./assets/climb.jpg"
+import newsPic from "./assets/climb/pov.jpg"
 
 const News: Component = () => {
   return (

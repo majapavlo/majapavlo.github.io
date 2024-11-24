@@ -88,8 +88,7 @@ const Home: Component = () => {
 
 
             <h4 class={styles.ResearchInterestsHeader}>Non-Academic Interests</h4>
-            Avid sports enthusiast, currently focussed on sport-climbing. \
-            {/* <Link href="climbing">sport-climbing</Link>.  */}
+            Sports enthusiast, currently focused on <Link href="climbing">sport-climbing</Link>.
             Otherwise, can be found doing yoga or some bouldering occasionally.
 
           </div>
@@ -102,7 +101,7 @@ const Home: Component = () => {
 
 
 
-        {/* <div class={styles.Container}>
+        <div class={styles.Container}>
           <div class={styles.Links}>
             <a href="https://github.com/majapavlo" target="_blank">
               <svg><use href={icons + '#github'}></use></svg>
@@ -111,19 +110,22 @@ const Home: Component = () => {
               <svg><use href={icons + '#linkedin'}></use></svg>
             </a>
             <a href="https://twitter.com/maja_pavlo" target="_blank">
-              <svg><use href={icons + '#twitter'}></use></svg>
+              <svg><use href={icons + '#x'}></use></svg>
             </a>
-            <a href="https://scholar.google.com/citations?user=NEa-wIIAAAAJ&hl=en" target="_blank">
+            <a href="https://bsky.app/profile/majapavlo.bsky.social" target="_blank">
+              <svg><use href={icons + '#bluesky'}></use></svg>
+            </a>
+            {/* <a href="https://scholar.google.com/citations?user=NEa-wIIAAAAJ&hl=en" target="_blank">
               <svg><use href={icons + '#scholar'}></use></svg>
-            </a>
+            </a> */}
             <a href="https://medium.com/@majapavlo" target="_blank">
               <svg><use href={icons + '#medium'}></use></svg>
             </a>
-            <a href="https://stackoverflow.com/users/17896972/mpavlo" target="_blank">
+            {/* <a href="https://stackoverflow.com/users/17896972/mpavlo" target="_blank">
               <svg><use href={icons + '#stackoverflow'}></use></svg>
-            </a>
+            </a> */}
           </div>
-        </div> */}
+        </div>
 
       </Container >
     </div >

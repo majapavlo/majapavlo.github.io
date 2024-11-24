@@ -2,7 +2,7 @@ import type { Component } from 'solid-js';
 
 import styles from './Projects.module.scss';
 import Container from './shared/Container';
-import trees from './assets/trees.jpg';
+import trees from './assets/climb/pov.jpg';
 
 const Projects: Component = () => {
   return (

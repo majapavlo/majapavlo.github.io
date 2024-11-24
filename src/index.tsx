@@ -11,6 +11,7 @@ import Projects from './Projects';
 import News from './News';
 import Publications from './Publications';
 import Climbing from './Climbing';
+// import Link from './Links';
 
 const Root: Component = () => {
   return (
@@ -26,6 +27,7 @@ const Root: Component = () => {
           <Route path="/publications" component={Publications} />
           <Route path="/climbing" component={Climbing} />
           <Route path="/news" component={News} />
+          {/* <Route path="/links" component={Link} /> */}
         </Routes>
       </main>
 
