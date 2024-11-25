@@ -5,19 +5,16 @@ import { createElementSize } from '@solid-primitives/resize-observer';
 
 import Container from './shared/Container';
 import styles from './Climbing.module.scss';
+import chorro1 from './assets/climb/chorro1.jpg';
+import bird from './assets/climb/bird.jpg';
+import croatia_pillar from './assets/climb/croatia_pillar.jpg';
+import pov from './assets/climb/pov.jpg';
 
 const urls = [
-  // // "src/assets/climb/kerze.png",
-  // "src/assets/climb/bird.jpg",
-  // "src/assets/climb/chorro1.jpg",
-  // "src/assets/climb/croatia_pillar.jpg",
-  // "src/assets/climb/pov.jpg",
-  // // "src/assets/climb/water.jpg",
-
-  "src/assets/climb/chorro1.jpg",
-  "src/assets/climb/bird.jpg",
-  "src/assets/climb/croatia_pillar.jpg",
-  "src/assets/climb/pov.jpg",
+  chorro1,
+  bird,
+  croatia_pillar,
+  pov,
 ];
 
 const images = urls.map(url => {
