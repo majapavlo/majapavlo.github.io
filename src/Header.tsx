@@ -45,7 +45,7 @@ const Header: Component = () => {
             >
               <A href="/">about</A>
               {/* <A href="/news">news</A> */}
-              <a href="https://scholar.google.com/citations?user=NEa-wIIAAAAJ&hl=en" target="_blank">publications</a>
+              <a href="https://scholar.google.com/citations?user=NEa-wIIAAAAJ&hl=en" target="_blank">scholar</a>
               <a href="https://medium.com/@majapavlo" target="_blank">blog</a>
               {/* <a href="https://github.com/majapavlo" target="_blank">github</a>
               <a href="https://x.com/maja_pavlo" target="_blank">twitter</a> */}

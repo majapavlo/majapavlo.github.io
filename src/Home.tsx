@@ -14,18 +14,20 @@ const Home: Component = () => {
           <h2>About</h2>
           <div class={styles.Blurb}>
             <div class={styles.BlurbText}>
-              Hi 👋! I am a PhD student at Queen Mary University of London, working with \
+              Hi 👋!  <br />
+              I am a PhD student at Queen Mary University of London, working with \
               <a href="https://sites.google.com/view/massimo-poesio" target="_blank">Massimo Poesio</a>. \
               {/* My research focuses on exploring how Machine Learning models, such as Neural Networks and Large Language Models,  */}
               {/* can effectively integrate diverse human opinions and handle scenarios where no single ground truth exists. Broadly, my interests include: */}
               I'm interested in understanding how Machine Learning models (<em>Neural Networks or LLMs</em>) \
-              can best incorporate various human opinions and how we can effectively evaluate scenarios where no single ground truth exists.
+              can best incorporate various human opinions and how we can effectively evaluate scenarios where no single ground truth exists.  <br />
               Broadly, my interests include:
               <ul>
-                <li> Subjective/Ambiguous Problems</li>
-                <li> Alignment of Models to Multiple Views </li> {/* <li> Annotator Disagreement</li> */}
-                <li> Uncertainty; Bias and Fairness </li>
-                <li> Data Centric Machine Learning </li>
+                <li> Subjective & Ambiguous Problems</li>
+                <li> Alignment of Models to Multiple Views (Distributional)</li> {/* <li> Annotator Disagreement</li> */}
+                <li> Uncertainty estimation </li>
+                <li> Bias and Fairness </li>
+                <li> Data Centric Approaches </li>
               </ul>
 
               I’m always open to collaborations, so feel free to reach out if our interests align!
@@ -60,14 +62,14 @@ const Home: Component = () => {
 
           <div class="about2">
 
-
+            {/* 
             <h3 class={styles.BackgroundHeader} >Background</h3>
             I have a Bachelor’s degree in <em><strong>Business, Economics and
               Social Sciences</strong></em> from the <a href="https://www.wu.ac.at/" target="_blank">Vienna University of Economics and Business</a>,
             a Master’s degree in <em><strong>Business Analytics</strong></em> from <a href="https://www.imperial.ac.uk/" target="_blank"> Imperial
               College London</a> and a Master’s degree in <em><strong>Artificial Intelligence</strong></em> from <a href="http://eecs.qmul.ac.uk/"
                 target="_blank">Queen Mary University London</a>.
-            My PhD is supported by the <em><a href="https://deepmind.google/">Google DeepMind studentship</a></em>.
+            My PhD is supported by the <em><a href="https://deepmind.google/">Google DeepMind studentship</a></em>. */}
 
 
             <h4 class={styles.ResearchInterestsHeader}>Teaching</h4>
