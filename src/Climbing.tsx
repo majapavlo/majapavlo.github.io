@@ -9,12 +9,20 @@ import chorro1 from './assets/climb/chorro1.jpg';
 import bird from './assets/climb/bird.jpg';
 import croatia_pillar from './assets/climb/croatia_pillar.jpg';
 import pov from './assets/climb/pov.jpg';
+import water from './assets/climb/water.jpeg'
+import kerze from './assets/climb/kerze.png'
+import spain from './assets/climb/spain.jpg'
+import sea from './assets/climb/sea.png'
 
 const urls = [
   chorro1,
   bird,
-  croatia_pillar,
-  pov,
+  // croatia_pillar,
+  // pov,
+  water,
+  // spain,
+  kerze,
+  // sea,
 ];
 
 const images = urls.map(url => {
