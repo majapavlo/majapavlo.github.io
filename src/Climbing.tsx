@@ -13,16 +13,19 @@ import water from './assets/climb/water.jpeg'
 import kerze from './assets/climb/kerze.png'
 import spain from './assets/climb/spain.jpg'
 import sea from './assets/climb/sea.png'
+import jump from './assets/climb/jump.jpeg'
+import crag from './assets/climb/crag.jpeg'
+import target from './assets/climb/target.jpg'
 
 const urls = [
+  jump,
   chorro1,
   bird,
-  // croatia_pillar,
-  // pov,
   water,
-  // spain,
+  spain,
   kerze,
-  // sea,
+  crag,
+  target,
 ];
 
 const images = urls.map(url => {
