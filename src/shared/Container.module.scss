@@ -14,7 +14,7 @@
 
   @media (min-width: map.get(vars.$breakpoints, md)) and (max-width: (map.get(vars.$breakpoints, lg) - 0.05px)) {
     margin: 0 auto;
-    width: 895px;
+    width: 840px;
   }
 
   @media (min-width: map.get(vars.$breakpoints, lg)) and (max-width: (map.get(vars.$breakpoints, xl) - 0.05px)) {

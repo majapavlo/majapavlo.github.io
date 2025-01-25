@@ -75,7 +75,7 @@ const Home: Component = () => {
             <h4 class={styles.ResearchInterestsHeader}>Teaching</h4>
             I'm a Teaching Assistant for the following modules at QMUL:
             <ul>
-              {/* <li> Neural Networks \& NLP <em>(starting in 2025)</em></li> */}
+              <li> Neural Networks &amp; NLP (<strong>2025</strong>)</li>
               <li> Deep Learning for Computer Vision (<strong>2024</strong>) </li>
               <li> Natural Language Processing (<strong>2023</strong>, <strong>2024</strong>) </li>
               <li> Machine Learning (<strong>2023</strong>, <strong>2024</strong>)</li>
