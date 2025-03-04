@@ -19,6 +19,7 @@
     text-decoration: none;
     line-height: 1;
   }
+
 }
 
 .HomeLink {
@@ -122,6 +123,18 @@
 
     &:hover::before {
       transform: scaleX(1);
+    }
+
+    // Divider between header tabs except the last one
+    &:not(:nth-last-child(-n+2))::after {
+      content: "";
+      position: absolute;
+      right: -10px; // Adjust spacing as needed
+      top: 50%;
+      transform: translateY(-50%);
+      width: 1px; // Divider thickness
+      height: 14px; // Divider height
+      background-color: var(--border);
     }
   }
 }

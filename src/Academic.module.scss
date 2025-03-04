@@ -1,7 +1,7 @@
 @use 'sass:map';
 @use './variables.module.scss' as vars;
 
-.Home {
+.Academic {
   padding: 40px 0;
 }
 
@@ -43,34 +43,6 @@
   }
 }
 
-.News {
-  padding: 20px 0 10px 0;
-}
-
-.NewsList {
-  width: 100%;
-  list-style: none;
-  padding: 0;
-
-  >li {
-    display: flex;
-    gap: 20px;
-    padding: 5px 0;
-    // margin-bottom: 10px;
-
-    // &:last-child {
-    //   margin-bottom: 0;
-    // }
-
-    >div:first-child {
-      flex: 0 0 80px;
-    }
-  }
-
-  tr>td:first-child {
-    white-space: nowrap;
-  }
-}
 
 .Links {
   margin-top: 60px;

@@ -27,6 +27,8 @@ const News: Component = () => {
               <div class="date">Apr 2023</div>
               <div>Accepted to the <a href="https://www.m2lschool.org/" target="_blank"> Mediteranean Machine Learning Summer School</a> (M2L)
                 organised by the <a href="https://sites.google.com/view/aieducationfoundation/home" target="_blank"> AI Education Foundation</a>.</div>
+              {/* We are thrilled to share some fantastic news with you! AEGEAN, the airline that knows Greece best, has generously decided to support the top 10 students attending the M2L Summer School, and you, yes YOU, 
+                have made the list! As a selected scholar, you are being offered a 100% fare discount for return Economy class tickets on any of AEGEAN’s and Olympic Air’s domestic or international routes to attend the M2L summer school. */}
             </li>
             <li>
               <div class="date">Feb 2023</div>
