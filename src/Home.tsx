@@ -50,13 +50,21 @@ const Home: Component = () => {
             <h2>Updates</h2>
             <ul class={styles.NewsList}>
               <li>
+                <div class="date">Mar 2025</div>
+                <div>
+                  <strong><em>ICLR blogpost: </em></strong>&nbsp;
+                  <a href='https://arxiv.org/pdf/2501.19047'>Understanding Model Calibration - A gentle introduction</a> was highlighted as a close runner-up for Best Blog Post by the <a href="https://iclr-blogposts.github.io/2025/about/" target="_blank"><em>ICLR
+                    Blogpost Track</em></a>
+                </div>
+              </li>
+              {/* <li>
                 <div class="date">Jan 2025</div>
                 <div>
                   <strong><em>ICLR blogpost: </em></strong>&nbsp;
                   <a href='https://arxiv.org/pdf/2501.19047'>Understanding Model Calibration - A gentle introduction</a> accepted at the <a href="https://iclr-blogposts.github.io/2025/about/" target="_blank"><em>ICLR
                     Blogpost Track</em></a>
                 </div>
-              </li>
+              </li> */}
               <li>
                 <div class="date">Dec 2024</div>
                 <div><strong><em>Neurips workshop: </em></strong>&nbsp;
