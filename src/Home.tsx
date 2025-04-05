@@ -11,8 +11,36 @@ const Home: Component = () => {
   return (
     <div class={styles.Home}>
       <Container>
+
+        <div class={styles.Container}>
+          <div class={styles.Links}>
+            <a href="https://github.com/majapavlo" target="_blank">
+              <svg><use href={icons + '#github'}></use></svg>
+            </a>
+            <a href="https://www.linkedin.com/in/maja-pavlovic/" target="_blank">
+              <svg><use href={icons + '#linkedin'}></use></svg>
+            </a>
+            <a href="https://twitter.com/maja_pavlo" target="_blank">
+              <svg><use href={icons + '#x'}></use></svg>
+            </a>
+            <a href="https://bsky.app/profile/majapavlo.bsky.social" target="_blank">
+              <svg><use href={icons + '#bluesky'}></use></svg>
+            </a>
+            <a href="https://scholar.google.com/citations?user=NEa-wIIAAAAJ&hl=en" target="_blank">
+              <svg><use href={icons + '#scholar'}></use></svg>
+            </a>
+            <a href="https://medium.com/@majapavlo" target="_blank">
+              <svg><use href={icons + '#medium'}></use></svg>
+            </a>
+            {/* <a href="https://stackoverflow.com/users/17896972/mpavlo" target="_blank">
+              <svg><use href={icons + '#stackoverflow'}></use></svg>
+            </a> */}
+          </div>
+        </div>
+
+
         <div class="about">
-          <h2>About</h2>
+          {/* <h2>About</h2> */}
           <div class={styles.Blurb}>
             <div class={styles.BlurbText}>
               Hi 👋!  <br />
@@ -32,7 +60,6 @@ const Home: Component = () => {
               </ul>
 
               I’m open to collaborations, so feel free to reach out if our interests align!
-
 
             </div>
 
@@ -73,7 +100,7 @@ const Home: Component = () => {
                 </div>
               </li>
               <li>
-                <div class="date">Jun 2023</div>
+                <div class="date">Sep 2023</div>
                 <div> <strong><em>Funding: </em></strong>&nbsp;
                   Received the <a href="https://www.deepmind.com/education" target="_blank">DeepMind Scholarship</a> to pursue a PhD under the supervision of <a href="https://sites.google.com/view/massimo-poesio" target="_blank">Massimo Poesio</a> in
                   the <a href="http://www.eecs.qmul.ac.uk/research/research-groups/cognitive-science-research-group/" target="_blank">Cognitive Science Research Group</a> at Queen Mary University of London
@@ -87,7 +114,7 @@ const Home: Component = () => {
                 </div>
               </li>
               <li>
-                <div class="date">Aug 2022</div>
+                <div class="date">Sep 2022</div>
                 <div> <strong><em>Funding: </em></strong>&nbsp;
                   Received the <a href="https://www.deepmind.com/education" target="_blank"> DeepMind Scholarship</a> for the
                   <a href="https://www.qmul.ac.uk/postgraduate/taught/coursefinder/courses/artificial-intelligence-msc/" target="_blank"> Artificial Intelligence MSc</a> at
@@ -102,47 +129,17 @@ const Home: Component = () => {
 
 
           {/* <hr style="border: 1px solid #ccc; margin: 20px 0;"></hr> */}
-          <div class="about2">
 
-            <h4 class={styles.ResearchInterestsHeader}>Non-Academic Interests</h4>
-            Sports enthusiast, currently focused on <Link href="climbing">sport-climbing</Link>.
-            Otherwise, can be found doing yoga or reading books.
 
-          </div>
+
+
+
 
 
 
         </div >
 
 
-
-
-
-        <div class={styles.Container}>
-          <div class={styles.Links}>
-            <a href="https://github.com/majapavlo" target="_blank">
-              <svg><use href={icons + '#github'}></use></svg>
-            </a>
-            <a href="https://www.linkedin.com/in/maja-pavlovic/" target="_blank">
-              <svg><use href={icons + '#linkedin'}></use></svg>
-            </a>
-            <a href="https://twitter.com/maja_pavlo" target="_blank">
-              <svg><use href={icons + '#x'}></use></svg>
-            </a>
-            <a href="https://bsky.app/profile/majapavlo.bsky.social" target="_blank">
-              <svg><use href={icons + '#bluesky'}></use></svg>
-            </a>
-            <a href="https://scholar.google.com/citations?user=NEa-wIIAAAAJ&hl=en" target="_blank">
-              <svg><use href={icons + '#scholar'}></use></svg>
-            </a>
-            <a href="https://medium.com/@majapavlo" target="_blank">
-              <svg><use href={icons + '#medium'}></use></svg>
-            </a>
-            {/* <a href="https://stackoverflow.com/users/17896972/mpavlo" target="_blank">
-              <svg><use href={icons + '#stackoverflow'}></use></svg>
-            </a> */}
-          </div>
-        </div>
 
       </Container >
     </div >

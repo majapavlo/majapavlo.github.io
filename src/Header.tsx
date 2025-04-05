@@ -26,7 +26,7 @@ const Header: Component = () => {
     <header class={styles.Header}>
       <Container>
         <nav class={styles.Navbar}>
-          <A href="/" class={styles.HomeLink}>mp</A>
+          <A href="/" class={styles.HomeLink}>about</A>
 
           <div class={styles.LinksContainer}>
             <Show when={!screenSize.md}>
@@ -43,7 +43,7 @@ const Header: Component = () => {
               style={{ display: menuOpen() ? 'flex' : 'none' }}
               onClick={() => setMenuOpen(false)}
             >
-              <A href="/">about</A>
+              {/* <A href="/">about</A> */}
               {/* <A href="/news">news</A> */}
               {/* <a href="https://github.com/majapavlo" target="_blank">github</a>
               <a href="https://x.com/maja_pavlo" target="_blank">twitter</a> */}
@@ -52,8 +52,8 @@ const Header: Component = () => {
               {/* <A href="/publications">publications</A> */}
               {/* <A href="/projects">projects</A> */}
               <A href="/academic">academic engagement</A>
-              <a href="https://scholar.google.com/citations?user=NEa-wIIAAAAJ&hl=en" target="_blank">scholar</a>
-              <a href="https://medium.com/@majapavlo" target="_blank">blog</a>
+              {/* <a href="https://scholar.google.com/citations?user=NEa-wIIAAAAJ&hl=en" target="_blank">publications</a> */}
+              {/* <a href="https://medium.com/@majapavlo" target="_blank">blog</a> */}
               <button type="button" class={styles.ThemeButton} onClick={toggleTheme}>
                 <span class="material-icons">
                   {theme() === 'light' ? 'dark_mode' : 'light_mode'}

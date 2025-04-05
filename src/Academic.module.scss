@@ -44,27 +44,27 @@
 }
 
 
-.Links {
-  margin-top: 60px;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 10px;
+// .Links {
+//   // margin-top: 60px;
+//   display: flex;
+//   justify-content: center;
+//   flex-wrap: wrap;
+//   gap: 10px;
 
-  a {
-    border: 1.5px solid var(--border-light);
-    border-radius: 50%;
-    font-size: 0;
-    padding: 10px;
+//   a {
+//     border: 1.5px solid var(--border-light);
+//     border-radius: 50%;
+//     font-size: 0;
+//     padding: 10px;
 
-    &:hover {
-      border-color: var(--icon-hover-color);
-    }
+//     &:hover {
+//       border-color: var(--icon-hover-color);
+//     }
 
-    svg {
-      fill: var(--icons);
-      width: 30px;
-      height: 30px;
-    }
-  }
-}
+//     svg {
+//       fill: var(--icons);
+//       width: 30px;
+//       height: 30px;
+//     }
+//   }
+// }
