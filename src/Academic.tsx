@@ -53,10 +53,11 @@ const Academic: Component = () => {
                     </div>
 
                     <h3 class={styles.ResearchInterestsHeader}>Mentoring</h3>
-                    Currently, mentoring students through the <em><a href="https://www.wiml.org/mentorship-program">Women in Machine Learning (WiML) Mentorship program</a></em> (<strong>2023</strong>, <strong>2024</strong>)
+                    Mentored students through the <em><a href="https://www.wiml.org/mentorship-program">Women in Machine Learning (WiML) Mentorship program</a></em> (<strong>2023</strong>, <strong>2024</strong>)
 
                     <h3 class={styles.ResearchInterestsHeader}>Reviewing</h3>
                     <ul>
+                        <li> <strong>2025</strong> EMNLP: &nbsp;  &nbsp;  NLPerspectives: Perspectivist Approaches to NLP - Learning with Disagreement shared task</li>
                         <li> <strong>2025</strong> COLING: &nbsp;  &nbsp;  CoMeDi: Context and Meaning - Navigating Disagreements in NLP Annotations workshop </li>
                         <li> <strong>2024</strong> Neurips: &nbsp;  &nbsp; Pluralistic Alignment workshop </li>
                     </ul>
