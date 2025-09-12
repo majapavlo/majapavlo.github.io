@@ -82,8 +82,7 @@ const Home: Component = () => {
                   Accepted into the <a href="https://sparai.org/" target="_blank">Supervised Program for Alignment Research</a> (SPAR), I'll be working with a team on <strong>Human-AI complementarity</strong>
                 </div> */}
                 <div><strong><em>Supervised Program for Alignment Research (SPAR):</em></strong>&nbsp;
-                  Accepted into <a href="https://sparai.org/" target="_blank">SPAR</a>, where I'll be joining a team to work on the project that is focused on \
-                  <a href="https://airtable.com/appypGt9DhCljq3Gh/shrpaJMUhvElTxcI8?detail=eyJwYWdlSWQiOiJwYWd5SURLVXg5WHk4bHlmMCIsInJvd0lkIjoicmVjT0hSRFhjT0NmelRySm0iLCJzaG93Q29tbWVudHMiOmZhbHNlLCJxdWVyeU9yaWdpbkhpbnQiOnsidHlwZSI6InBhZ2VFbGVtZW50IiwiZWxlbWVudElkIjoicGVsSmM5QmgwWDIxMEpmUVEiLCJxdWVyeUNvbnRhaW5lcklkIjoicGVsUlNqc0xIbWhUVmJOaE4iLCJzYXZlZEZpbHRlclNldElkIjoic2ZzRGNnMUU3Mk9xSXVhYlgifX0&VbNhN=allRecords">Achieving Human-AI complementarity</a>
+                  Accepted into <a href="https://sparai.org/" target="_blank">SPAR</a>, where I'll be joining a team to work on <a href="https://airtable.com/appypGt9DhCljq3Gh/shrpaJMUhvElTxcI8?detail=eyJwYWdlSWQiOiJwYWd5SURLVXg5WHk4bHlmMCIsInJvd0lkIjoicmVjT0hSRFhjT0NmelRySm0iLCJzaG93Q29tbWVudHMiOmZhbHNlLCJxdWVyeU9yaWdpbkhpbnQiOnsidHlwZSI6InBhZ2VFbGVtZW50IiwiZWxlbWVudElkIjoicGVsSmM5QmgwWDIxMEpmUVEiLCJxdWVyeUNvbnRhaW5lcklkIjoicGVsUlNqc0xIbWhUVmJOaE4iLCJzYXZlZEZpbHRlclNldElkIjoic2ZzRGNnMUU3Mk9xSXVhYlgifX0&VbNhN=allRecords">Achieving Human-AI complementarity</a>
                 </div>
               </li>
               <li>
