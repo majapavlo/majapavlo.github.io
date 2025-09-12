@@ -77,7 +77,7 @@ const Home: Component = () => {
             <h2>Updates</h2>
             <ul class={styles.NewsList}>
               <li>
-                <div class="date">Nov 2025</div>
+                <div class="date">Sep 2025</div>
                 {/* <div><strong><em>AI Alignment:</em></strong>&nbsp;
                   Accepted into the <a href="https://sparai.org/" target="_blank">Supervised Program for Alignment Research</a> (SPAR), I'll be working with a team on <strong>Human-AI complementarity</strong>
                 </div> */}
