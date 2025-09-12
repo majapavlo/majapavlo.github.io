@@ -51,7 +51,7 @@ const Header: Component = () => {
               {/* <a href="https://www.linkedin.com/in/maja-pavlovic/" target="_blank">linkedin</a> */}
               {/* <A href="/publications">publications</A> */}
               {/* <A href="/projects">projects</A> */}
-              <A href="/academic">academic engagement</A>
+              {/* <A href="/academic">academic engagement</A> */}
               {/* <a href="https://scholar.google.com/citations?user=NEa-wIIAAAAJ&hl=en" target="_blank">publications</a> */}
               {/* <a href="https://medium.com/@majapavlo" target="_blank">blog</a> */}
               <button type="button" class={styles.ThemeButton} onClick={toggleTheme}>
