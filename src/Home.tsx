@@ -146,7 +146,7 @@ const Home: Component = () => {
             <ul>
               <li> 2025 <strong><em>EMNLP: </em></strong> &nbsp; NLPerspectives - Perspectivist Approaches to NLP workshop; Learning with Disagreement shared task</li>
               <li> 2025 <strong><em>COLING: </em></strong> &nbsp; CoMeDi: Context and Meaning - Navigating Disagreements in NLP Annotations workshop</li>
-              <li> 2024 <strong><em>Neurips: </em></strong>: &nbsp; Pluralistic Alignment workshop</li>
+              <li> 2024 <strong><em>Neurips: </em></strong> &nbsp; Pluralistic Alignment workshop</li>
             </ul>
             {/* <li>
                 <div class="date">2025</div>
