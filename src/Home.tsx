@@ -137,35 +137,55 @@ const Home: Component = () => {
 
 
           <hr style="border: 1px solid #ccc; margin: 20px 0;"></hr>
-          <div class="academic">
+
+
+          <div class={styles.News}>
+            {/* <ul class={styles.NewsList}> */}
             <h2 class={styles.ResearchInterestsHeader}>Academic Engagement</h2>
-            <div class="teaching">
+            <h3 class={styles.ResearchInterestsHeader}>Reviewing</h3>
+            <ul>
+              <li> 2025 <strong><em>EMNLP: </em></strong> &nbsp; NLPerspectives - Perspectivist Approaches to NLP workshop; Learning with Disagreement shared task</li>
+              <li> 2025 <strong><em>COLING: </em></strong> &nbsp; CoMeDi: Context and Meaning - Navigating Disagreements in NLP Annotations workshop</li>
+              <li> 2024 <strong><em>Neurips: </em></strong>: &nbsp; Pluralistic Alignment workshop</li>
+            </ul>
+            {/* <li>
+                <div class="date">2025</div>
+                <div> <strong><em>EMNLP: </em></strong>&nbsp;
+                  NLPerspectives - Perspectivist Approaches to NLP workshop; Learning with Disagreement shared task
+                </div>
+              </li>
+              <li>
+                <div class="date">2025</div>
+                <div> <strong><em>COLING: </em></strong>&nbsp;
+                  CoMeDi: Context and Meaning - Navigating Disagreements in NLP Annotations workshop
+                </div>
+              </li>
+              <li>
+                <div class="date">2024</div>
+                <div> <strong><em>Neurips: </em></strong>&nbsp;
+                  Pluralistic Alignment workshop
+                </div>
+              </li> */}
+            {/* </ul> */}
+            {/* </div> */}
 
-              <h3 class={styles.ResearchInterestsHeader}>Reviewing</h3>
-              <ul>
-                <li> <strong>2025</strong> EMNLP: &nbsp;  &nbsp;  NLPerspectives: Perspectivist Approaches to NLP - Learning with Disagreement shared task</li>
-                <li> <strong>2025</strong> COLING: &nbsp;  &nbsp;  CoMeDi: Context and Meaning - Navigating Disagreements in NLP Annotations workshop </li>
-                <li> <strong>2024</strong> Neurips: &nbsp;  &nbsp; Pluralistic Alignment workshop </li>
-              </ul>
+            <h3 class={styles.ResearchInterestsHeader}>Teaching</h3>
+            I'm a teaching assistant for the following modules at <strong>QMUL</strong>:
+            <ul>
+              <li> Neural Networks &amp; NLP (<strong>2025</strong>)</li>
+              <li> Deep Learning for Computer Vision (<strong>2024</strong>) </li>
+              <li> Natural Language Processing (<strong>2023</strong>, <strong>2024</strong>) </li>
+              <li> Machine Learning (<strong>2023</strong>, <strong>2024</strong>)</li>
+            </ul>
+            <div>
+              Before supporting teaching at Queen Mary, I volunteered as a <em>Python instructor</em> with <a href='https://codefirstgirls.com/'>Code First Girls</a>, where I taught foundational programming skills. Prior to that, I volunteered as a <em>mathematics tutor</em> with <a href='https://www.caritas.at/'>Cartias Austria</a>.
+            </div>
 
-              <h3 class={styles.ResearchInterestsHeader}>Teaching</h3>
-              I'm a Teaching Assistant for the following modules at <strong>QMUL</strong>:
-              <ul>
-                <li> Neural Networks &amp; NLP (<strong>2025</strong>)</li>
-                <li> Deep Learning for Computer Vision (<strong>2024</strong>) </li>
-                <li> Natural Language Processing (<strong>2023</strong>, <strong>2024</strong>) </li>
-                <li> Machine Learning (<strong>2023</strong>, <strong>2024</strong>)</li>
-              </ul>
-              <div>
-                Before supporting teaching at Queen Mary, I volunteered as a <em>Python instructor</em> with <a href='https://codefirstgirls.com/'>Code First Girls</a>, where I taught foundational programming skills. Prior to that, I volunteered as a <em>mathematics tutor</em> with <a href='https://www.caritas.at/'>Cartias Austria</a>.
-              </div>
-
+            <div class="mentoring">
               <h3 class={styles.ResearchInterestsHeader}>Mentoring</h3>
-              Mentored students through the <em><a href="https://www.wiml.org/mentorship-program">Women in Machine Learning (WiML) Mentorship program</a></em> (<strong>2023</strong>, <strong>2024</strong>)
-
-
-            </div >
-          </div >
+              Mentoring students through the <em><a href="https://www.wiml.org/mentorship-program">Women in Machine Learning (WiML) Mentorship program</a></em> (<strong>2023</strong>, <strong>2024</strong>, <strong>2025</strong>)
+            </div>
+          </div>
 
           <hr style="border: 1px solid #ccc; margin: 30px 0;"></hr>
 
@@ -174,16 +194,7 @@ const Home: Component = () => {
             Contributed to <a href="https://github.com/StatProofBook/StatProofBook.github.io">The Book of Statistical Proofs</a>, adding definitions and proofs
           </div>
 
-
-
-
-
-
-
-
         </div >
-
-
 
       </Container >
     </div >
