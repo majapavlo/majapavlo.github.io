@@ -53,9 +53,9 @@ const Home: Component = () => {
               Broadly, my interests include:
               <ul>
                 <li> Subjective & Ambiguous Problems</li>
-                <li> Alignment of Models to Multiple Views (Distributional)</li> {/* <li> Annotator Disagreement</li> */}
-                <li> Uncertainty estimation </li>
-                <li> Bias and Fairness </li>
+                {/* <li> Alignment of Models to Multiple Views (Distributional)</li> <li> Annotator Disagreement</li> */}
+                <li> Annotator Disagreement & Uncertainty estimation </li>
+                <li> Human-centered AI </li>
                 <li> Data Centric Approaches </li>
               </ul>
 
@@ -172,7 +172,7 @@ const Home: Component = () => {
             <h3 class={styles.ResearchInterestsHeader}>Teaching</h3>
             I'm a teaching assistant for the following modules at <strong>QMUL</strong>:
             <ul>
-              <li> Neural Networks &amp; NLP (<strong>2025</strong>)</li>
+              <li> Neural Networks &amp; NLP (<strong>2025</strong>, <strong>2026</strong>)</li>
               <li> Deep Learning for Computer Vision (<strong>2024</strong>) </li>
               <li> Natural Language Processing (<strong>2023</strong>, <strong>2024</strong>) </li>
               <li> Machine Learning (<strong>2023</strong>, <strong>2024</strong>)</li>
