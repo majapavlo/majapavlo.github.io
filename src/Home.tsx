@@ -144,6 +144,7 @@ const Home: Component = () => {
             <h2 class={styles.ResearchInterestsHeader}>Academic Engagement</h2>
             <h3 class={styles.ResearchInterestsHeader}>Reviewing</h3>
             <ul>
+              <li> 2026 <strong><em>ICML: </em></strong> &nbsp; Pluralistic Alignment workshop</li>
               <li> 2025 <strong><em>EMNLP: </em></strong> &nbsp; NLPerspectives - Perspectivist Approaches to NLP workshop; Learning with Disagreement shared task</li>
               <li> 2025 <strong><em>COLING: </em></strong> &nbsp; CoMeDi: Context and Meaning - Navigating Disagreements in NLP Annotations workshop</li>
               <li> 2024 <strong><em>Neurips: </em></strong> &nbsp; Pluralistic Alignment workshop</li>
