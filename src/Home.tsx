@@ -77,6 +77,17 @@ const Home: Component = () => {
             <h2>Updates</h2>
             <ul class={styles.NewsList}>
               <li>
+                <div class="date">May 2026</div>
+                <div>Two new <strong><em>preprints</em></strong> out:
+                  <ul>
+                    <li><a href="https://arxiv.org/abs/2605.18648" target="_blank">An Assessment of Human vs. Model Uncertainty in Soft-Label Learning and Calibration
+                    </a></li>
+                    <li><a href="https://arxiv.org/abs/2605.04070" target="_blank">Toward Human-AI Complementarity Across Diverse Tasks
+                    </a></li>
+                  </ul>
+                </div>
+              </li>
+              <li>
                 <div class="date">Sep 2025</div>
                 {/* <div><strong><em>AI Alignment:</em></strong>&nbsp;
                   Accepted into the <a href="https://sparai.org/" target="_blank">Supervised Program for Alignment Research</a> (SPAR), I'll be working with a team on <strong>Human-AI complementarity</strong>
