@@ -44,8 +44,8 @@ const Home: Component = () => {
           <div class={styles.Blurb}>
             <div class={styles.BlurbText}>
               Hi 👋!  <br />
-              I am a PhD student at Queen Mary University of London, working with \
-              <a href="https://sites.google.com/view/massimo-poesio" target="_blank">Massimo Poesio</a>. \
+              I am a PhD student at Queen Mary University of London working with \
+              <a href="https://sites.google.com/view/massimo-poesio" target="_blank">Massimo Poesio</a>,  funded through a <a href="https://www.deepmind.com/education" target="_blank">DeepMind</a>  scholarship. \
               {/* My research focuses on exploring how Machine Learning models, such as Neural Networks and Large Language Models,  */}
               {/* can effectively integrate diverse human opinions and handle scenarios where no single ground truth exists. Broadly, my interests include: */}
               I'm interested in understanding how Machine Learning models (<em>Neural Networks or LLMs</em>) \
@@ -77,6 +77,14 @@ const Home: Component = () => {
             <h2>Updates</h2>
             <ul class={styles.NewsList}>
               <li>
+                <div class="date">Sep 2026</div>
+                <div>
+                  <strong><em>NeurIPS paper: </em></strong>&nbsp;
+                  <a href='https://arxiv.org/abs/2605.18648'>An Assessment of Human vs. Model Uncertainty in Soft-Label Learning and Calibration</a> was accepted at the <a href="https://blog.neurips.cc/2026/03/23/introducing-the-evaluations-datasets-track-at-neurips-2026/" target="_blank"><em>NeurIPS
+                    Evaluations and Datasets</em></a> Track
+                </div>
+              </li>
+              {/* <li>
                 <div class="date">May 2026</div>
                 <div>Two new <strong><em>preprints</em></strong> out:
                   <ul>
@@ -86,20 +94,11 @@ const Home: Component = () => {
                     </a></li>
                   </ul>
                 </div>
-              </li>
-              <li>
-                <div class="date">Sep 2025</div>
-                {/* <div><strong><em>AI Alignment:</em></strong>&nbsp;
-                  Accepted into the <a href="https://sparai.org/" target="_blank">Supervised Program for Alignment Research</a> (SPAR), I'll be working with a team on <strong>Human-AI complementarity</strong>
-                </div> */}
-                <div><strong><em>Supervised Program for Alignment Research (SPAR):</em></strong>&nbsp;
-                  Joined a <a href="https://sparai.org/" target="_blank">SPAR</a> project on scalable oversight, where I'll be working with a team towards <a href="https://airtable.com/appypGt9DhCljq3Gh/shrpaJMUhvElTxcI8?detail=eyJwYWdlSWQiOiJwYWd5SURLVXg5WHk4bHlmMCIsInJvd0lkIjoicmVjT0hSRFhjT0NmelRySm0iLCJzaG93Q29tbWVudHMiOmZhbHNlLCJxdWVyeU9yaWdpbkhpbnQiOnsidHlwZSI6InBhZ2VFbGVtZW50IiwiZWxlbWVudElkIjoicGVsSmM5QmgwWDIxMEpmUVEiLCJxdWVyeUNvbnRhaW5lcklkIjoicGVsUlNqc0xIbWhUVmJOaE4iLCJzYXZlZEZpbHRlclNldElkIjoic2ZzRGNnMUU3Mk9xSXVhYlgifX0&VbNhN=allRecords">achieving Human-AI complementarity</a>
-                </div>
-              </li>
+              </li> */}
               <li>
                 <div class="date">Mar 2025</div>
                 <div>
-                  <strong><em>Top ICLR blogpost: </em></strong>&nbsp;
+                  <strong><em>ICLR blogpost: </em></strong>&nbsp;
                   <a href='https://arxiv.org/pdf/2501.19047'>Understanding Model Calibration - A gentle introduction</a> was highlighted as a <u>close runner-up for Best Blog Post</u> by the <a href="https://iclr-blogposts.github.io/2025/about/" target="_blank"><em>ICLR
                     Blogpost Track</em></a>
                 </div>
