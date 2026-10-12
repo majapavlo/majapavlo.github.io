@@ -45,7 +45,7 @@ const Home: Component = () => {
             <div class={styles.BlurbText}>
               Hi 👋!  <br />
               I am a PhD student at Queen Mary University of London working with \
-              <a href="https://sites.google.com/view/massimo-poesio" target="_blank">Massimo Poesio</a>,  funded through a <a href="https://www.deepmind.com/education" target="_blank">DeepMind</a>  scholarship. \
+              <a href="https://sites.google.com/view/massimo-poesio" target="_blank">Massimo Poesio</a>,  funded through a <a href="https://www.deepmind.com/education" target="_blank">Google DeepMind</a>  scholarship. \
               {/* My research focuses on exploring how Machine Learning models, such as Neural Networks and Large Language Models,  */}
               {/* can effectively integrate diverse human opinions and handle scenarios where no single ground truth exists. Broadly, my interests include: */}
               I'm interested in understanding how Machine Learning models (<em>Neural Networks or LLMs</em>) \
@@ -118,13 +118,13 @@ const Home: Component = () => {
                     Algorithmic Fairness through the Lens of Metrics and Evaluation</em></a>)
                 </div>
               </li>
-              <li>
+              {/* <li>
                 <div class="date">Sep 2023</div>
                 <div> <strong><em>Funding: </em></strong>&nbsp;
-                  Received the <a href="https://www.deepmind.com/education" target="_blank">DeepMind Scholarship</a> to pursue a PhD under the supervision of <a href="https://sites.google.com/view/massimo-poesio" target="_blank">Massimo Poesio</a> in
+                  Received the <a href="https://www.deepmind.com/education" target="_blank">Google DeepMind Scholarship</a> to pursue a PhD under the supervision of <a href="https://sites.google.com/view/massimo-poesio" target="_blank">Massimo Poesio</a> in
                   the <a href="http://www.eecs.qmul.ac.uk/research/research-groups/cognitive-science-research-group/" target="_blank">Cognitive Science Research Group</a> at Queen Mary University of London
                 </div>
-              </li>
+              </li> */}
               <li>
                 <div class="date">Apr 2023</div>
                 <div> <strong><em>Funding: </em></strong>&nbsp;
@@ -135,7 +135,7 @@ const Home: Component = () => {
               <li>
                 <div class="date">Sep 2022</div>
                 <div> <strong><em>Funding: </em></strong>&nbsp;
-                  Received the <a href="https://www.deepmind.com/education" target="_blank"> DeepMind Scholarship</a> for the
+                  Received the <a href="https://www.deepmind.com/education" target="_blank">Google DeepMind Scholarship</a> for the
                   <a href="https://www.qmul.ac.uk/postgraduate/taught/coursefinder/courses/artificial-intelligence-msc/" target="_blank"> Artificial Intelligence MSc</a> at
                   the <a href="http://www.eecs.qmul.ac.uk/" target="_blank"> School of Electronics Engineering and Computer Science</a> of Queen Mary University of London.
                 </div>
